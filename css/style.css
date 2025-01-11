@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: Nunito Sans, Open sans, sans-serif;
+  color: white;
+  background: rgba(25, 25, 27, 1);
+}
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-inline: 30px;
+}
+p {
+  font-family: Nunito Sans;
+  font-size: clamp(0.5rem, 0.205rem + 1.48vw, 1.313rem);
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.6565263867378235px;
+  color: rgba(255, 255, 255, 0.786);
+}
+h1 {
+  font-family: Open Sans;
+  font-size: clamp(1.563rem, 0.767rem + 3.98vw, 3.75rem);
+  font-weight: 700;
+  line-height: 65px;
+}
+h2 {
+  font-family: Nunito Sans;
+  font-size: clamp(0.938rem, 0.642rem + 1.48vw, 1.75rem);
+  font-weight: 600;
+  letter-spacing: -0.7503158450126648px;
+}
+button {
+  padding: 6px 20px;
+  background: rgba(84, 84, 212, 1);
+  border-radius: 5px;
+  border: none;
+  font-family: Nunito Sans;
+  font-size: clamp(0.5rem, 0.205rem + 1.48vw, 1.313rem);
+  font-weight: 700;
+  color: white;
+}
+/* header */
+#header{
+    padding-block:20px ;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  input {
+    padding: 10px 40px;
+    border: 0.5px solid white;
+    border-radius: 2px;
+  }
+}
+.nav-header {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+  a {
+    font-family: Nunito Sans;
+    font-size: clamp(0.563rem, 0.358rem + 1.02vw, 1.125rem);
+    font-weight: 400;
+color: rgba(255, 255, 255, 0.885);    
+  }
+}
+.burger-menu{
+    display: none;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  h1 {
+    font-family: Montserrat;
+    font-size: clamp(1.125rem, 0.898rem + 1.14vw, 1.75rem);
+    font-weight: 700;
+  }
+}
+/* header */
+
+/* build */
+#build{
+    padding-block:30px ;
+}
+.build{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.build-text{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.imageb img{
+width: 100%;
+}
+/* build */
