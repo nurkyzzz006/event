@@ -43,10 +43,19 @@ button {
   font-size: clamp(0.5rem, 0.205rem + 1.48vw, 1.313rem);
   font-weight: 700;
   color: white;
+  a {
+    /* rotate:70deg; */
+    background: rgba(84, 84, 212, 1);
+    ion-icon {
+      rotate: -50deg;
+      background: rgba(84, 84, 212, 1);
+      font-size: 20px;
+    }
+  }
 }
 /* header */
-#header{
-    padding-block:20px ;
+#header {
+  padding-block: 20px;
 }
 .header {
   display: flex;
@@ -66,11 +75,11 @@ button {
     font-family: Nunito Sans;
     font-size: clamp(0.563rem, 0.358rem + 1.02vw, 1.125rem);
     font-weight: 400;
-color: rgba(255, 255, 255, 0.885);    
+    color: rgba(255, 255, 255, 0.885);
   }
 }
-.burger-menu{
-    display: none;
+.burger-menu {
+  display: none;
 }
 .logo {
   display: flex;
@@ -85,21 +94,68 @@ color: rgba(255, 255, 255, 0.885);
 /* header */
 
 /* build */
-#build{
-    padding-block:30px ;
+#build {
+  padding-block: 30px;
 }
-.build{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.build {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.build-text{
-    max-width: 500px;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+.build-text {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
-.imageb img{
-width: 100%;
+
+.imageb img {
+  width: 100%;
 }
 /* build */
+
+/* service */
+#service {
+  padding-block: 30px;
+}
+.service {
+  h1 {
+    text-align: center;
+  }
+}
+.service-blocks {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.block {
+  padding-top: 70px;
+  max-width: 280px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  h2 {
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+}
+.circle {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(84, 84, 212, 0.1);
+  ion-icon {
+    font-size: 35px;
+    background: none;
+    color: blue;
+  }
+}
+
+/* service */
