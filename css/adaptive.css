@@ -51,6 +51,7 @@ p{
     font-size: clamp(0.813rem, 0.699rem + 0.57vw, 1.125rem);
 }
   }
+
 }
 @media (max-width: 650px) {
   .header input {
@@ -91,5 +92,8 @@ p{
        }
 
     }
+  }
+  .block-service{
+    gap: 20px;
   }
 }
